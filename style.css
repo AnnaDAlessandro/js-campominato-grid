@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo img{
+    width:40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #7fffd4;
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+main #griglia{
+    border: 1px solid black;
+    width: 60%;
+    margin: 0 auto;
+    flex-basis: calc(100%/9);
+    
+}
+footer{
+    height: 10vh;
+    padding: 30px;
+    font-size: 15px;
+}
+footer p span{
+    text-decoration: underline;
+    color:#5c2491;
+}
+
+.box{
+    aspect-ratio: 1;
+    wi
+}
